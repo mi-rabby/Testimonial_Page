@@ -1,0 +1,53 @@
+.main{
+    background-color: #FAFAF9;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.star img{
+    background-color:#F5C044;
+    border-radius: 20px;
+    padding: 8px;
+}
+.done{
+     display: flex;
+     color: hsl(240, 10%, 29%);
+     font-size:12px;
+
+}
+.google{
+    background-color:#f1eeeefa;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;  
+}
+
+
+.container h1{
+    color: #18181B;
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.container p{
+  color: hsl(240, 4%, 56%);
+  font-size: 14px;
+}
+.colour{
+    color: hsl(240, 4%, 56%);
+    font-size:14px;
+}
+
+@media screen and (max-width: 576px){
+    .main, done{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .main, done{
+        flex-direction: column;
+    }
+}
